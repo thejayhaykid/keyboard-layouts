@@ -3,7 +3,7 @@
   "notes": "Final",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "boardsource/lulu/rp2040",
-  "keymap": "boardsource_lulu_rp2040_jakes-full-lulu",
+  "keymap": "boardsource_lulu_rp2040_boardsource_lulu_rp2040_jakes-full-lulu",
   "layout": "LAYOUT",
   "layers": [
     [
@@ -60,7 +60,7 @@
       "KC_LCTL",
       "KC_LALT",
       "KC_LGUI",
-      "KC_ENT",
+      "LT(2,KC_ENT)",
       "KC_SPC",
       "MO(1)",
       "KC_BSPC",
@@ -183,7 +183,7 @@
       "KC_TRNS",
       "KC_TRNS",
       "MO(3)",
-      "KC_TRNS",
+      "KC_DEL",
       "KC_TRNS"
     ],
     [
